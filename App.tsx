@@ -1,11 +1,10 @@
 import * as React from 'react';
-import './style.css';
+//import './style.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import ListGroup from "./components/ListGroup"
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <div><ListGroup/></div>
   );
 }
